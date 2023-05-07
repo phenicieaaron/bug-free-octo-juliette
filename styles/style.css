@@ -27,7 +27,7 @@ body {
 }
 
 #footerTwo {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 2.5rem;            
@@ -37,12 +37,35 @@ body {
   margin: 0 auto; 
   float: none; 
   margin-bottom: 10px; 
+  background-color: rgb(177, 63, 63);
 }
 
 .btn  {
   width: 50%;
   margin: 0 auto;
+}
 
+#footer, #footerTwo {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ecf0f1;
+  text-align: center; 
+}
+
+#console-box{
+  position:relative;
+  height:300px;
+  width:40%;
+  background-color:#000;
+  color: #55ff55;
+  font-family: monospace;
+  padding:6px; 
+  margin: 2% auto;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  border: 2px solid #161616;
+  font-size: 14px;
 }
 
 .content {
@@ -186,5 +209,3 @@ h3 {
   color: #ecf0f1;
   text-align: center; 
 }
-
-/* for button */
